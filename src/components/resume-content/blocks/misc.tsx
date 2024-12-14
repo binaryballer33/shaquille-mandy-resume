@@ -1,4 +1,4 @@
-import SectionTitle from "../section-tiitle"
+import SectionTitle from "./section-tiitle"
 
 export default function Misc() {
     return (

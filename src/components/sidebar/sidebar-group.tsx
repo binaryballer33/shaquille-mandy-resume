@@ -27,7 +27,9 @@ export default function CustomSidebarGroup(props: NavMainProps) {
                                 href={item.link}
                             >
                                 <item.icon className="h-5 w-5" />
-                                <span className={item.highlight ? "text-yellow-500" : ""}>{item.title}</span>
+                                <span className={`max-sm:text-sm ${item.highlight ? "text-yellow-500" : ""}`}>
+                                    {item.title}
+                                </span>
                             </Link>
 
                             {item.dateAttendedUniversity && <UniversityInfo item={item} />}

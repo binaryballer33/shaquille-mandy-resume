@@ -94,7 +94,7 @@ export const sidebarNavItems: SidebarNavItems = {
             highlight: true,
             icon: Globe,
             link: "https://www.shaquillemandy.com",
-            title: "shaquillemandy.com ( website )",
+            title: "shaquillemandy.com",
         },
     ],
     education: [

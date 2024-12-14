@@ -1,4 +1,4 @@
-import SectionTitle from "../section-tiitle"
+import SectionTitle from "./section-tiitle"
 import SectionSeparator from "./section-separator"
 import { useAboutMe } from "./use-resume-content"
 

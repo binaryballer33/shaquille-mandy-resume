@@ -142,6 +142,7 @@ export const sidebarNavItems: SidebarNavItems = {
             title: "General Knowledge",
         },
         {
+            highlight: true,
             icon: BicepsFlexed,
             knowledge: "Git, Github, Jira, Kanban, Agile",
             link: "#",

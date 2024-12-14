@@ -1,5 +1,5 @@
-import SectionTitle from "./section-tiitle"
 import SectionSeparator from "./section-separator"
+import SectionTitle from "./section-tiitle"
 import { useAboutMe } from "./use-resume-content"
 
 export default function AboutMe() {

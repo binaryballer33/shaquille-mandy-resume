@@ -1,9 +1,6 @@
 import { useMemo } from "react"
 
 export function useWorkExperience() {
-    // TODO: use this image url path if needed
-    // const githubImagUrlBase = "https://raw.githubusercontent.com/binaryballer33/shaquille-mandy-resume/blob/main/public"
-
     const workExperience = useMemo(
         () => [
             {

@@ -1,7 +1,7 @@
 import AboutMe from "./blocks/about-me"
 import Header from "./blocks/header"
 import Misc from "./blocks/misc"
-import WorkExperience from "./blocks/work-experience"
+import WorkExperience from "./blocks/work-experience/work-experience"
 
 export default function Resume() {
     return (

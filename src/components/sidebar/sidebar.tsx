@@ -1,6 +1,6 @@
 "use client"
 
-import { Sidebar, SidebarContent } from "@/components/ui/sidebar"
+import { Sidebar, SidebarContent, SidebarRail } from "@/components/ui/sidebar"
 
 import CustomSidebarGroup from "@/components/sidebar/sidebar-group"
 import { sidebarNavItems } from "@/components/sidebar/sidebar-nav-items"
@@ -19,6 +19,7 @@ export default function CustomSidebar({ ...props }: React.ComponentProps<typeof 
                     <CustomSidebarGroup groupTitle="Skills" items={sidebarNavItems.skills} />
                 </div>
             </SidebarContent>
+            <SidebarRail />
         </Sidebar>
     )
 }

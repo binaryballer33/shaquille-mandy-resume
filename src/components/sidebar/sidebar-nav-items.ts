@@ -172,11 +172,3 @@ export const sidebarNavItems: SidebarNavItems = {
         },
     ],
 }
-
-export const workExperience = [
-    {
-        company: "Amazon",
-        date: "May 2022 - Dec 1, 2023",
-        title: "Software Engineer",
-    },
-]

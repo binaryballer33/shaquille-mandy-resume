@@ -11,7 +11,7 @@ type NavMainProps = {
     items: any[]
 }
 
-export default function NavMain(props: NavMainProps) {
+export default function CustomSidebarGroup(props: NavMainProps) {
     const { groupTitle, items } = props
 
     return (

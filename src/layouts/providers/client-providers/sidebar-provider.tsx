@@ -1,3 +1,5 @@
+"use client"
+
 import { SidebarProvider } from "@/components/ui/sidebar"
 
 export default function ClientSidebarProvider({ children }: { children: React.ReactNode }) {

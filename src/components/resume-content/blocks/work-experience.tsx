@@ -18,7 +18,13 @@ export default function WorkExperience() {
                         <div className="flex items-center justify-between">
                             <div className="flex items-center gap-4">
                                 {experience.icon ? (
-                                    <Image alt={experience.company} height={40} src={experience.icon} width={40} />
+                                    <Image
+                                        alt={experience.company}
+                                        className="rounded-lg object-contain dark:bg-white"
+                                        height={40}
+                                        src={experience.icon}
+                                        width={40}
+                                    />
                                 ) : (
                                     <Briefcase className="h-10 w-10 text-blue-600" />
                                 )}

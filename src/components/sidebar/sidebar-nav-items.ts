@@ -1,6 +1,6 @@
 import type { LucideIcon } from "lucide-react"
 
-import { Book, Github, Globe, Linkedin, Mail, Phone } from "lucide-react"
+import { Award, BicepsFlexed, Github, Globe, GraduationCap, Linkedin, Mail, Phone } from "lucide-react"
 
 export type SidebarNavItems = {
     certifications: {
@@ -36,28 +36,28 @@ export const sidebarNavItems: SidebarNavItems = {
     certifications: [
         {
             highlight: true,
-            icon: Book,
+            icon: Award,
             link: "#",
             title: "CISSP, CASP+",
         },
         {
-            icon: Book,
+            icon: Award,
             link: "#",
             title: "Pentest+, CySA+, CEH",
         },
         {
-            icon: Book,
+            icon: Award,
             link: "#",
             title: "Linux+, CCNA",
         },
         {
             highlight: true,
-            icon: Book,
+            icon: Award,
             link: "#",
             title: "AWS Solutions Architect Associate",
         },
         {
-            icon: Book,
+            icon: Award,
             link: "#",
             title: "ITIL, Project+",
         },
@@ -102,61 +102,61 @@ export const sidebarNavItems: SidebarNavItems = {
             dateAttendedUniversity: "November 2022 - April 2023",
             degreeAwarded: "M.S Cybersecurity & Information Assurance",
             highlight: true,
-            icon: Book,
+            icon: GraduationCap,
             link: "https://www.wgu.edu/online-it-degrees/cybersecurity-information-assurance-masters-program.html",
             title: "Western Governors University",
         },
         {
             dateAttendedUniversity: "September 2018 - September 2022",
             degreeAwarded: "B.S Information Technology",
-            icon: Book,
+            icon: GraduationCap,
             link: "https://www.wgu.edu/online-it-degrees/information-technology-bachelors-program.html",
             title: "Western Governors University",
         },
         {
             dateAttendedUniversity: "May 2022 - October 2022",
             degreeAwarded: "Software Engineer",
-            icon: Book,
+            icon: GraduationCap,
             link: "https://www.tlgitcareers.com/software-development-engineer-sde/",
             title: "TLG Software Engineer Bootcamp",
         },
         {
             dateAttendedUniversity: "September 2022 - April 2023",
             degreeAwarded: "Software Engineer",
-            icon: Book,
+            icon: GraduationCap,
             link: "https://www.fullstackacademy.com/programs/coding-bootcamp",
             title: "Fullstack Academy Bootcamp",
         },
     ],
     skills: [
         {
-            icon: Book,
+            icon: BicepsFlexed,
             knowledge: "Linux, Networking, Security, AWS, CICD, Cloud, CDK, IaaC",
             link: "#",
             title: "Infra:",
         },
         {
-            icon: Book,
+            icon: BicepsFlexed,
             knowledge: "System Design, Data Structures and Algorithms, SQL, DBMS",
             link: "#",
             title: "General Knowledge",
         },
         {
-            icon: Book,
+            icon: BicepsFlexed,
             knowledge: "Git, Github, Jira, Kanban, Agile",
             link: "#",
             title: "Team Collaboration",
         },
         {
             highlight: true,
-            icon: Book,
+            icon: BicepsFlexed,
             knowledge: "Java, Typescript / Javascript, Python, Ruby, Bash, C++",
             link: "#",
             title: "Languages",
         },
         {
             highlight: true,
-            icon: Book,
+            icon: BicepsFlexed,
             knowledge:
                 "HTML, CSS, Jquery, React, React Native, Material UI, ShadCN, Tailwind, Bootstrap, NextJs, CSR, SSR",
             link: "#",
@@ -164,7 +164,7 @@ export const sidebarNavItems: SidebarNavItems = {
         },
         {
             highlight: true,
-            icon: Book,
+            icon: BicepsFlexed,
             knowledge:
                 "DB Queries, ORM, SQL, Authentication, Authorization, Payments, RestApis ( In Any Language / Framework ): Java Spring, Flask, Django, Node, C#, etc",
             link: "#",

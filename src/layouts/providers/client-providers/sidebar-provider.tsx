@@ -1,23 +1,10 @@
-import { type ReactNode } from "react"
+import { SidebarProvider } from "@/components/ui/sidebar"
 
-import { SidebarProvider as ShadcnSidebarProvider } from "@/components/ui/sidebar"
+export default function ClientSidebarProvider({ children }: { children: React.ReactNode }) {
+    const styles = {
+        "--sidebar-width": "30rem",
+        "--sidebar-width-mobile": "30rem",
+    } as React.CSSProperties
 
-type SidebarProviderProps = {
-    children: ReactNode
-}
-
-export default function SidebarProvider(props: SidebarProviderProps) {
-    const { children } = props
-
-    return (
-        <ShadcnSidebarProvider
-            style={{
-                // manually set the sidebar width here
-                "--sidebar-width": "30rem",
-                "--sidebar-width-mobile": "30rem",
-            }}
-        >
-            {children}
-        </ShadcnSidebarProvider>
-    )
+    return <SidebarProvider style={styles}>{children}</SidebarProvider>
 }

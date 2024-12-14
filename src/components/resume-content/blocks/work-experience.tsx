@@ -22,6 +22,7 @@ export default function WorkExperience() {
                                         alt={experience.company}
                                         className="rounded-lg object-contain dark:bg-white"
                                         height={40}
+                                        priority
                                         src={experience.icon}
                                         width={40}
                                     />

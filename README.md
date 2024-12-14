@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next JS App Router Mui Starter Template
 
-## Getting Started
+## Template Project Tech Stack
 
-First, run the development server:
+-   React v18
+-   Next v14 ( App Router )
+-   Typescript v5
+-   Node v20.x
+-   Docker ( Containerization )
+-   Eslint ( Linting )
+-   Prettier ( Formatting )
+-   Import, Objects, Types And JSX Props Sorting With Perfectionist
+-   Husky ( Pre-Commit Validation )
+-   Redux Toolkit
+-   Zod ( Client Side Validation And Data Modelling )
+-   React-Hook-Form ( Form Validation )
+-   Server Actions ( API Endpoints )
+-   TanStack React Query v5 ( Caching, API Queries And Mutations )
+-   Authentication ( Next Auth v5 )
+    -   Login
+    -   Register
+    -   Account Verification
+    -   Forgot Password
+    -   Two-Factor Authentication
+-   Personalized Emails ( Resend and React Email )
+-   Postgres Database Provider ( Supabase, Can Be Any Database Provider )
+-   Prisma ORM ( DB CRUD Operations, Type Generation )
+-   Pagination
+-   Internationalization ( i18next ) - Multilanguage Support
+-   Fully Responsive On Desktop, Tablet And Mobile
+-   Advance MUI Components
+    -   Light And Dark Themes
+    -   Count Up
+    -   Accordions
+    -   Graphs
+    -   Charts
+    -   Modals & Dialogs
+    -   Tabs
+    -   Mobile App Bottom Navigation Bar ( Work In Progress )
+    -   Multi-Layouts ( Work In Progress )
+    -   Website Keyboard Shortcut Cmd + K ( For Searching Through The Website Work In Progress )
+    -   Animations ( AOS But Changing Library To Framer Motion Work In Progress )
+    -   Date Pickers ( Work In Progress )
+    -   Carousels ( Work In Progress )
+    -   Drag And Drop ( Work In Progress )
+    -   File Uploads ( Work In Progress )
+    -   Maps ( react-map-gl and mapbox-gl Work In Progress )
+    -   Paginated Tables And Grids ( Changing To Mui-Data-Grid Work In Progress )
 
-```bash
-npm run dev
+## Getting Started With The Package
+
+Package Manager Is Bun, But You Can Use NPM, Yarn or Pnpm
+
+```
+bun install
+
 # or
-yarn dev
+
+npm install
+
 # or
-pnpm dev
+
+yarn install
+
 # or
-bun dev
+
+pnpm install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Environment Variables Needed
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+NEXT_PUBLIC_BACKEND_BASE_URL
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# If Using Supabase ( there's a branch for this implementation )
+NEXT_PUBLIC_SUPABASE_REF_ID=
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
 
-## Learn More
+# if Using Next Auth
+AUTH_SECRET=
 
-To learn more about Next.js, take a look at the following resources:
+# if Using Google Or Facebook OAuth Providers
+AUTH_GOOGLE_ID=
+AUTH_GOOGLE_SECRET=
+AUTH_FACEBOOK_ID=
+AUTH_FACEBOOK_SECRET=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# If Using Prisma
+DATABASE_URL=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# If Using AWS DynamoDB ( there's a branch for this implementation )
+NEXT_PUBLIC_AWS_ACCESS_KEY_ID=
+NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY=
+NEXT_PUBLIC_AWS_REGION=
+NEXT_PUBLIC_AWS_DYNAMO_DB_TABLE_NAME=
+```
 
-## Deploy on Vercel
+### Seeding The Database
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Make Sure You Have TSX installed, Use TSX to run seed file, it will allow you to use other necessary dependencies
+created in the project unlike mjs or js files
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`npm install -g tsx`
+
+`tsx prisma/seed-database.ts `
+
+### Install Dependencies
+
+`npm install`

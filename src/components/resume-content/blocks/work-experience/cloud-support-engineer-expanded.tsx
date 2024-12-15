@@ -41,8 +41,8 @@ export default function CloudSupportEngineerExpanded() {
             <div className="space-y-6">
                 <Card>
                     <CardContent className="p-6">
+                        <Image alt="Amazon logo" className="rounded" height={48} src="/icon-aws.webp" width={48} />
                         <div className="flex flex-col gap-4 md:flex-row">
-                            <Image alt="Amazon logo" className="rounded" height={48} src="/icon-aws.webp" width={48} />
                             <div className="flex-1">
                                 <h3 className="text-lg font-semibold">Amazon</h3>
                                 <p className="text-muted-foreground">Jul 2021 to Oct 2021 · 4 mos</p>

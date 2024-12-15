@@ -28,15 +28,9 @@ export default function SoftwareEngineerExpanded() {
             <div className="space-y-6">
                 <Card>
                     <CardContent className="p-6">
+                        <Image alt="Amazon logo" className="rounded" height={48} src="/icon-amazon.webp" width={48} />
                         <div className="flex flex-col gap-4 md:flex-row">
                             <div className="flex-1">
-                                <Image
-                                    alt="Amazon logo"
-                                    className="rounded"
-                                    height={48}
-                                    src="/icon-amazon.webp"
-                                    width={48}
-                                />
                                 <h3 className="text-lg font-semibold">Amazon</h3>
                                 <p className="text-muted-foreground">Full-time · 1 yr 8 mos</p>
                                 <p className="text-muted-foreground">Seattle, Washington, United States</p>

@@ -30,19 +30,20 @@ export default function NetworkAdministratorExpanded() {
         "Linux Server",
         "Active Directory",
     ]
+
     return (
         <div className="mx-auto max-w-3xl p-6">
             <div className="space-y-6">
                 <Card>
                     <CardContent className="p-6">
+                        <Image
+                            alt="United States Air Force logo"
+                            className="rounded"
+                            height={48}
+                            src="/icon-us-air-force.webp"
+                            width={48}
+                        />
                         <div className="flex flex-col gap-4 md:flex-row">
-                            <Image
-                                alt="United States Air Force logo"
-                                className="rounded"
-                                height={48}
-                                src="/icon-us-air-force.webp"
-                                width={48}
-                            />
                             <div className="flex-1">
                                 <h3 className="text-lg font-semibold">United States Air Force</h3>
                                 <p className="text-muted-foreground">Full-time · 4 yrs</p>

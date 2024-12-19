@@ -34,7 +34,9 @@ export default function WorkExperience() {
                                     )}
                                     <div className="flex flex-1 flex-col">
                                         <h3 className="text-xl font-semibold text-blue-600">{experience.title}</h3>
-                                        <p className="text-sm text-gray-600 max-sm:invisible">{experience.company}</p>
+                                        <p className="text-sm text-muted-foreground max-sm:invisible">
+                                            {experience.company}
+                                        </p>
                                     </div>
                                     <span className="text-yellow-700">{experience.duration}</span>
                                 </div>

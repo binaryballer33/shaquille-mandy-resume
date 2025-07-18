@@ -29,7 +29,7 @@ export function useWorkExperience() {
             {
                 company: "Amazon",
                 description:
-                    "As a member of the Alexa Smart Home organization, I supported the energy consumption component of the service. Technologies that my team used included React Native, TypeScript, Java, AWS, etc. I worked across the full stack for Alexa Smart Home touching both front and back-end services involved in making the Alexa Smart Home mobile app work. Supported the company in helping to reduce the impact of global warming by reducing electricity consumption on a global scale.",
+                    "As a key contributor within the Alexa Smart Home organization, I specialized in the energy consumption component of the service. My full-stack expertise spanned both front-end and back-end services for the Alexa Smart Home mobile application, leveraging technologies such as React, React Native, TypeScript, Java, and AWS. My work directly supported the global initiative to reduce electricity consumption, significantly contributing to the company's efforts in mitigating global warming impact and saving the customer money on their electric bill.",
                 duration: "May 2022 - Dec 1, 2023",
                 icon: "/icon-amazon.webp",
                 title: JobTitle.SOFTWARE_ENGINEER,
@@ -37,7 +37,7 @@ export function useWorkExperience() {
             {
                 company: "Amazon Web Services (AWS)",
                 description:
-                    "I root caused deployment failures across 20+ pipelines, made code changes to fix the failures and scripts to automate repetitive tasks, created/updated documentation, and more. I worked with other Software Engineers daily to ensure that the services I supported continued to run with minimal downtime. I participated in an on-call rotation of 10 engineers that supported the AWS BuilderTools organization. Services I worked with included CloudFormation, CodeDeploy, CodeCommit, CodeBuild, CodePipeline, RDS, DynamoDB, SWF, and SOS.",
+                    "As an engineer, I was responsible for enhancing the reliability and efficiency of critical software delivery pipelines. I diagnosed and resolved deployment failures across over 20 CI/CD pipelines, implementing targeted code changes and developing automation scripts to eliminate repetitive manual tasks. My efforts directly contributed to maintaining high availability for supported services, ensuring minimal downtime. I actively collaborated with fellow software engineers and participated in a 10-person on-call rotation for the AWS BuilderTools organization. My technical expertise frequently involved services such as CloudFormation, CodeDeploy, CodeCommit, CodeBuild, CodePipeline, RDS, DynamoDB, SWF, and SQS.",
                 duration: "October 2021 - May 2022",
                 icon: "/icon-aws.webp",
                 title: JobTitle.SITE_RELIABILITY_ENGINEER,
@@ -45,7 +45,7 @@ export function useWorkExperience() {
             {
                 company: "Amazon Web Services (AWS)",
                 description:
-                    "I troubleshoot customer cases in our ticketing system to determine the root cause of their problem. I provided support and advice to help AWS customers fix their AWS resources and improve their current level of knowledge about the AWS platform. Services I worked with included EC2, IAM, S3, VPC, KMS, CloudWatch, CloudTrail, Route53, and many more.",
+                    "My role involved providing advanced technical support to AWS customers, utilizing our ticketing system to diagnose and resolve complex resource-related issues. I focused on root cause analysis, guiding customers through effective solutions and enhancing their operational proficiency within the AWS ecosystem. My expertise encompassed a broad range of AWS services, including EC2, IAM, S3, VPC, KMS, CloudWatch, CloudTrail, and Route 53, among others.",
                 duration: "July 2021 to October 2021",
                 icon: "/icon-aws.webp",
                 title: JobTitle.CLOUD_SUPPORT_ENGINEER,
@@ -53,7 +53,7 @@ export function useWorkExperience() {
             {
                 company: "U.S. Air Force",
                 description:
-                    "I maintained our network's critical infrastructure and provided IT support to our 10,000+ military and civilian workforce up to the Top-Secret SCI level. I ensured our infrastructure was always secure, available, and accessible by authorized personnel. Technologies I have experience with include TACLANES, Cisco/Juniper routers/switches, VoIP, printers, IAM, desktops, laptops, servers, etc.",
+                    "My responsibilities included the sustained availability and security of critical network infrastructure for a workforce exceeding 10,000 military and civilian personnel, up to the Top-Secret SCI classification. I was instrumental in ensuring authorized access while meticulously safeguarding the integrity of our systems. My expertise spans a range of technologies, including TACLANES, Cisco/Juniper routing and switching platforms, VoIP systems, network printers, Identity and Access Management (IAM) solutions, and various end-user and server-side hardware.",
                 duration: "August 2017 - June 2021",
                 icon: "/icon-us-air-force.webp",
                 title: JobTitle.NETWORK_ADMINISTRATOR,
